@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.1.
 
+## What's the issue?
+It appears to be impossible to clear content from a secondary router outlet using the `routerLink` directive.
+
+## How to test
+1. Click "Show secondary content".
+2. Navigating between the primary routes does not close the secondary content.
+3. Clicking the button in the secondary content does close the content. 
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
